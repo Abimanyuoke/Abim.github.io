@@ -1,0 +1,10 @@
+.header .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* margin-left: 10rem; */
+}
+.header a.logo {
+  margin-left: 10px;
+  font-size: 20px;
+}/*# sourceMappingURL=container1.css.map */
