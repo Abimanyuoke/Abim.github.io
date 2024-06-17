@@ -51,7 +51,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 /*===================  typed Animation  =================*/
 const typed = new Typed ('.multiple-text', {
-    strings: ['Frontend Developer', 'Web Designer', 'Web Development'], 
+    strings: ['Frontent', 'Web Designer', 'Web Development'], 
     typeSpeed: 100, 
     backSpeed: 100,
     loop: true

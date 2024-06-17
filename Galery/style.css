@@ -54,8 +54,9 @@ span {
 .portofolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 2.5rem;
+    justify-content: center;
+    align-items: center; 
+    gap: 3rem;
     background-color: var(--second-bg-color);
     border-radius: 0.5rem;
 }
@@ -126,12 +127,12 @@ span {
     }
 }
 
-.sertifikat-class {
+.Galery-class {
     display: flex;
     margin: auto;
 }
 
-.sertifikat-class .sertifikat-box {
+.Galery-class .galery-box {
     width: 100%;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -139,7 +140,7 @@ span {
     padding-bottom: 40px;
 }
 
-.sertifikat-class .sertifikat-box .sertifikat-colum {
+.Galery-class .galery-box .galery-colum {
     background-color: rgb(255 255 255); 
     border-radius: 0.75rem;
     overflow: hidden;
@@ -147,7 +148,8 @@ span {
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
-.sertifikat-class .sertifikat-box .sertifikat-colum .sertifikat-info {
+
+.Galery-class .galery-box .galery-colum .galery-info {
     padding-top: 2rem; 
     padding-bottom: 2rem;
     padding-left: 1.5rem;
@@ -170,10 +172,10 @@ a {
     white-space: nowrap;
 }
 
-.sertifikat-class .sertifikat-box .sertifikat-colum .sertifikat-info p {
+.Galery-class .galery-box .galery-colum .galery-info p {
     font-weight: 500;
     margin-bottom: 1.5rem;
-    color: var(--bg-color)
+    color: var(--bg-color);
 }
 
 .text {
@@ -228,4 +230,17 @@ a {
     display: flex;
     align-items: center;
     z-index: 100;
+}
+
+.portofolio .title {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-top: 5rem;
+      
+}
+
+.portofolio .title .desc {
+    font-size: 20px;
+    color: white;
+      
 }
