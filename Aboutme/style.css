@@ -302,128 +302,87 @@ section {
 }
 
 /* BREAK POINTS */
-@media (max-width: 1200px) {
-    html {
-        font-size: 55%;
-    }
-}
+@media (max-width:1199px) {
 
-@media (max-width: 991px) {
-    .header {
-        padding: 2rem 3%;
+    .section .container {
+        padding-top: 70px;
     }
 
-    section {
-        padding: 10rem 3% 2rem;
+    .aside {
+        left: -270px;
     }
 
-    .services {
-        padding-bottom: 7rem;
+    .aside .nav-toggler {
+        display: flex;
+        left: 30px;
     }
 
-    .portofolio {
-        padding-bottom: 7rem;
-    }
-
-    .contact {
-        min-height: auto;
-    }
-    
-    .footer {
-        padding: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    #menu-icon {
-        display: block;
-    }
-
-    .navbar {
-        position: absolute;
-        top: 100%;
+    .aside.open {
         left: 0;
-        width: 100%;
-        padding: 1rem 3%;
-        background: var(--bg-color);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        display: none;
     }
 
-.navbar.active {
-    display: block;
-}
+    .aside .nav-toggler.open {
+        left: 300px;
+    }
 
-    .navbar a {
+    .section.open {
+        left: 270px;
+    }
+
+    .section {
+        left: 0;
+    }
+
+    .about .about-content .personal-info .info-item p span {
         display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    .home {
-        flex-direction: column;
-    }
-    
-    .home-content h3 {
-        font-size: 2.6rem;
-    }
-    
-    .home-content h1 {
-        font-size: 5rem;
-    }
-    
-    .home-img img {
-    width: 70vw;
-    margin-top: 4rem;
-    }
-
-    .about {
-        flex-direction: column-reverse;
-    }
-
-    .about img {
-        width: 70vw;
-        margin-top: 3rem;
-    }
-
-    .services h2 {
-        margin-bottom: 3rem;
-    }
-
-    .portofolio h2 {
-        margin-bottom: 3rem;
-    }
-
-    .portofolio-container {
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-}
-
-@media  (max-width: 617px) {
-    .portofolio-container {
-        grid-template-columns: 1fr;
+        margin-left: 0;
     }
 }
+
+
+@media (max-width: 767px) {
+
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+     .header .container a.logo {
+        font-size: 14px;
+    }
+
+    .about-text p {
+        font-size: 15px;
+    }
+
+    .about .about-content .personal-info .info-item p {
+        font-size: 14px;
+    }
+
+    .footer-text p {
+        font-size: 14px;
+    }
+
+    .footer-icon a {
+        padding: 2px;
+    }
+
+    .footer-icon a i {
+        font-size: 30px;
+    }
+}
+
 
 @media  (max-width: 450px) {
     html {
         font-size: 50%;
     }
-
-    .contact form .input-box input {
-        width: 100%;
-    }
 }
 
 @media  (max-width: 365px) {
-    .home-img img {
-        width: 90vw;
-    }
-    .about-img {
-        width: 90vw;
-    }
 
     .footer {
         flex-direction: column-reverse;
@@ -434,3 +393,5 @@ section {
         margin-top: 2rem;
     }
 }
+
+
