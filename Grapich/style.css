@@ -99,6 +99,11 @@ html {
       flex: 100%;
       max-width: 100%;
     }
+
+    .header .container a.logo {
+      font-size: 14px;
+      width: 100%;
+  }
   }
 
 .footer {

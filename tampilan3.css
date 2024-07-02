@@ -428,6 +428,11 @@ span {
     .footer {
         padding: 2rem;
     }
+    
+    .header .container a.logo {
+        font-size: 14px;
+        max-width: 100%;
+    }
 }
 
 @media (max-width: 768px) {

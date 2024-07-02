@@ -94,6 +94,11 @@ span {
     .portofolio-container {
         grid-template-columns: repeat(2,1fr);
     }
+
+    .header .container a.logo {
+        font-size: 14px;
+        width: 100%;
+    }
     
 }
 

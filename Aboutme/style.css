@@ -352,6 +352,7 @@ section {
 
      .header .container a.logo {
         font-size: 14px;
+        max-width: 100%;
     }
 
     .about-text p {
@@ -379,6 +380,11 @@ section {
 @media  (max-width: 450px) {
     html {
         font-size: 50%;
+    }
+
+    .header .container a.logo {
+        font-size: 14px;
+        width: 100%;
     }
 }
 
