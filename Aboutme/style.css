@@ -374,6 +374,22 @@ section {
     .footer-icon a i {
         font-size: 30px;
     }
+
+    .about .about-content .timeline .timeline-title {
+        font-size : 16px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        color: var(--main-color);
+
+    }
+
+    .about .about-content .timeline .timeline-text {
+        line-height: 25px;
+        font-size: 13px;
+        text-align: justify;
+        color: var(--text-black-700);
+    }
 }
 
 
@@ -385,6 +401,22 @@ section {
     .header .container a.logo {
         font-size: 14px;
         width: 100%;
+    }
+
+    .about .about-content .timeline .timeline-title {
+        font-size : 16px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        color: var(--main-color);
+
+    }
+
+    .about .about-content .timeline .timeline-text {
+        line-height: 25px;
+        font-size: 13px;
+        text-align: justify;
+        color: var(--text-black-700);
     }
 }
 

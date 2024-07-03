@@ -28,6 +28,18 @@ html {
     overflow-x: hidden;
 }
 
+a {
+  display: block;
+  margin-bottom:  0.75rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  hover: rgb(20 184 166);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .grapich .heading {
         text-align: center;
         padding-top: 10rem;
@@ -137,4 +149,28 @@ html {
 .footer-icon a i {
     font-size: 2.4rem;
     color: var(--bg-color);
+}
+
+/* BREAK POINTS */
+@media (max-width: 1200px) {
+  html {
+      font-size: 55%;
+  }
+}
+
+@media  (max-width: 450px) {
+  html {
+      font-size: 50%;
+  }
+}
+
+@media  (max-width: 365px) {
+  .footer {
+      flex-direction: column-reverse;
+  }
+
+  .footer p  {
+      text-align: center;
+      margin-top: 2rem;
+  }
 }
