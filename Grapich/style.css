@@ -162,6 +162,11 @@ a {
   html {
       font-size: 50%;
   }
+
+  .footer-text p {
+    font-size: 1.5rem;
+    color: white;
+}
 }
 
 @media  (max-width: 365px) {
